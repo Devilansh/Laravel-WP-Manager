@@ -16,6 +16,5 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('dashboard');
 });
-Route::get('/a', function () {
-    return view('a');
-});
+Route::view('products','products');
+Route::view('a','a');

@@ -1,13 +1,15 @@
-<div class="nk-sidebar nk-sidebar-fixed is-light " data-content="sidebarMenu">
+<div class="nk-sidebar nk-sidebar-fixed is-light is-compact " data-content="sidebarMenu">
     <div class="nk-sidebar-element nk-sidebar-head">
         <div class="nk-sidebar-brand">
             <a href="/" class="logo-link nk-sidebar-logo">
-                <img class="logo-img" src="{{asset('img/logo/logo.jpg')}}">
+                <img class="logo-img" src="{{ asset('img/logo/logo.jpg') }}">
             </a>
         </div>
         <div class="nk-menu-trigger me-n2">
-            <a href="#" class="nk-nav-toggle nk-quick-nav-icon d-xl-none" data-target="sidebarMenu"><em class="icon ni ni-arrow-left"></em></a>
-            <a href="#" class="nk-nav-compact nk-quick-nav-icon d-none d-xl-inline-flex" data-target="sidebarMenu"><em class="icon ni ni-menu"></em></a>
+            <a href="#" class="nk-nav-toggle nk-quick-nav-icon d-xl-none" data-target="sidebarMenu"><em
+                    class="icon ni ni-arrow-left"></em></a>
+            <a href="#" class="nk-nav-compact nk-quick-nav-icon d-none d-xl-inline-flex compact-active"
+                data-target="sidebarMenu"><em class="icon ni ni-menu"></em></a>
         </div>
     </div>
     <div class="nk-sidebar-element">
@@ -15,19 +17,19 @@
             <div class="nk-sidebar-menu" data-simplebar>
                 <ul class="nk-menu">
                     <li class="nk-menu-item">
-                        <a href="#" class="nk-menu-link nk-menu-toggle">
+                        <a href="/dashboard" class="nk-menu-link nk-menu-toggle">
                             <span class="nk-menu-icon"><em class="icon ni ni-growth-fill"></em></span>
                             <span class="nk-menu-text">Dashboard</span>
                         </a>
                     </li>
                     <li class="nk-menu-item">
-                        <a href="#" class="nk-menu-link nk-menu-toggle">
+                        <a href="/products" class="nk-menu-link nk-menu-toggle">
                             <span class="nk-menu-icon"><em class="icon ni ni-card-view"></em></span>
                             <span class="nk-menu-text">Products</span>
                         </a>
                     </li>
                     <li class="nk-menu-item">
-                        <a href="#" class="nk-menu-link nk-menu-toggle">
+                        <a href="/orders" class="nk-menu-link nk-menu-toggle">
                             <span class="nk-menu-icon"><em class="icon ni ni-cc-alt2-fill"></em></span>
                             <span class="nk-menu-text">Orders</span>
                         </a>
